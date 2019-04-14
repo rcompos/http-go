@@ -12,7 +12,7 @@ $ go run http-go
 
 ### Run HTTP service from Docker sample image
 
-$ docker run -d -p 8080:8080 rcompos/http-go
+$ docker run -it --rm -p 8080:8080 rcompos/http-go
 
 ### Browse result
 
