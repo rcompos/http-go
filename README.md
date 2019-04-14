@@ -2,16 +2,17 @@
 
 HTTP server written in Go.
 
-### Run Go
+Run the service from the command line (go run) or build a binary (go build) or run the existing Docker image.
 
-go run http-go
+Note: Run one service at a time to avoid port contention or change the Docker port mapping.
 
+### Run HTTP service from command line
 
-### Docker sample image
+$ go run http-go
 
-docker pull rcompos/http-go
+### Run HTTP service from Docker sample image
 
-docker run -d -p 8080:8080 http-go
+$ docker run -d -p 8080:8080 rcompos/http-go
 
 ### Browse result
 
